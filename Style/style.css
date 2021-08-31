@@ -1,0 +1,95 @@
+/*Global*/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial,sans-serif;
+}
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+/*Header*/
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#437a69f0;
+	height:10vh;
+	color:white;
+}
+
+
+/*Section*/
+section.cont1{
+	width:720px;
+	text-align: left;
+	margin:auto;
+	padding:3%;
+}
+section a{
+background: red;
+border-radius: 4px;
+color: white;
+padding:13px;
+display:inline-block;
+margin-top:2%;
+}
+section table{
+	border-collapse: collapse;
+	margin-top: 2%;
+	width: 100%;
+	color:white;
+}
+section table tr{
+	border-bottom:2px solid white;
+	height: 50px;
+}
+section table tr th,td{
+	padding:10px;
+	text-align: left;
+}
+section table tr{
+	background-color:#437a69f0;
+}
+section table tr:nth-child(1){
+	background-color:#284b40f5;
+	color:white;
+}
+section form{
+	border:1px solid #5d320c;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 3%;
+	width:450px;
+	height:65vh;
+	margin: auto;
+	background-color:#437a69f0;
+
+}
+section form input{
+	padding: 3%;
+	text-align: left;
+	border:2px solid #32423df0;
+}
+section h3{
+	color:#284b40f5; 
+}
+
+/*Javascript Buttons*/
+div{
+	display: flex;
+	justify-content: space-around;
+}
+input[type="button"]{
+ width:75px;
+ height: 32px;
+ border: none;
+ background-color: red;
+ color:white;
+ border-radius: 2px;
+}
